@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="DOM.css"/>
+    <link  rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> SHOPPING-CARD </title>
+</head>
+<body >
+   
+    <header>
+        <h1 class="SHOPPING-CARD">SHOPPING-CARD</h1>
+        
+    </header>
+<main>
+    <label class="PRIXT">PRIX TOTAL:</label> <input type="text" id="PT" name="PT">
+        <br>
+        <br>
+<section>  
+
+<table class="table1" id="table1">
+ <tr class="card" id="A1">
+ 
+ <th> <p id="DELETE-PRODUCT" onclick="DeleteArticle('A1')"><i class="fas fa-trash-alt"></i></p></th>
+ <th> <p id="heart-like"><i class="fas fa-heart"></i></p></th></tr>  
+
+ <tr id="A2">
+ <th> <p id="DELETE-PRODUCT" onclick="DeleteArticle('A2')"><i class="fas fa-trash-alt"></i></p></th>
+ <th> <p id="heart-like"><i class="fas fa-heart"></i></p></th></tr>  
+
+</table> 
+
+<table class="table2" id="table2">
+  <tr>
+  <th><a class="img"> <img src="SHOES.jpg"alt="shoes" ></a></th></tr>           
+  <tr>    
+  <th><a class="img"> <img src="skirt.jpg"alt="skirt"/></a></th></tr>   
+</table> 
+
+<table class="table4" id="table4"> 
+  <tr>
+  <th><h3 class="name">Larry tan boots</h3><br><p class="pu">39.00 TND</p></th></tr>              
+  <tr>       
+  <th><h3 class="name">Black SKIRT</h3><br><p class="pu1">66.00 TND</p></th></tr>
+</table>
+
+<table class="table3" id="table3">
+    <tr>     
+    <th><div class="quantity">
+        <button  id="decrease" class="decrease">-</button>
+        <p class="number1">0</p>
+        <button  class="increase">+</button>
+    </div></th></tr> 
+    <tr> 
+    <th><div class="quantity">
+        <button id="decreasea" class="decrease">-</button>
+        <p class="number1">0</p>
+        <button class="increase" >+</button>
+
+    </div></th></tr>
+</table> 
+</section>    
+</main>
+<script src="script.js"></script>
+</body>
+</html>
